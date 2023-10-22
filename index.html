@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<body>
+<body  class="overflow-x-hidden">
     <div id="preloader"
         class="min-vh-100 h-100 bg-lightpurple1 d-flex justify-content-center align-items-center position-fixed top-0 start-0 w-100 z-5 flex-column">
      <p class="fw-semibold font-family-semibold text-dark-purple fs-1lg">MFS-Desktop</p>
@@ -50,10 +50,11 @@
     <button id="back-to-top" class="my-auto mx-auto" ><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
         <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
       </svg></button>
-    <header class="overflow-x-hidden">
+    <header>
         <!--nav-bar-->
-        <nav class="nav-bgcolor position-fixed w-100 start-0 top-0 z-3 nav-tb-padding">
-            <div class="container d-flex  justify-content-lg-center align-items-lg-center align-items-end justify-content-end">
+        <nav class="nav-bgcolor position-fixed w-100 start-0 top-0 z-3 py-20">
+            <div class="container-custom2 d-flex  justify-content-between align-items-center">
+                <div class="cursor-pointer"><img src="./assets/images/pagelogo.png" alt="pagelogo"></div>
                 <label for="icon" class="icon">
                     <span></span>
                     <span></span>
@@ -91,10 +92,10 @@
         </nav>
         <!--header-->
         <div class="container-custom pt-63">
-            <div class="row flex-column-reverse flex-xl-row">
+            <div class="row flex-column-reverse flex-lg-row">
                 <div
-                    class="col-xl-6 col-12 px-xl-0 bg-img-header d-flex align-items-center justify-content-center header-box-padding height-771" >
-                    <div class="header-box w-100 h-100 d-flex justify-content-center flex-column ps-sm-5"  data-aos="flip-right"
+                    class="col-lg-6 col-12 px-lg-0 bg-img-header d-flex align-items-center justify-content-center header-box-padding height-771" >
+                    <div class="header-box  h-100 d-flex justify-content-center flex-column ps-sm-5 ps-lg-2 ps-xl-5"  data-aos="flip-right"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <h1 class="fs-1lg fw-semibold text-white header-heading ps-sm-2 font-family-semibold">
@@ -105,7 +106,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="col-xl-6 px-xl-0" data-aos="flip-left"
+                <div class="col-lg-6 px-lg-0 col-12" data-aos="flip-left"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000">
                     <img src="./assets/images/header-img2.png" alt="header-img2"
@@ -116,7 +117,7 @@
     </header>
     <!--section2-->
     <section class="bg-lightpurple" id="home" >
-        <div class="container-custom1 py-sm-93 py-25">
+        <div class="container-custom1 py-sm-93 py-35">
             <h2 class="font-family-semibold fw-semibold fs-lg text-dark-purple ps-sm-4">
                 Welcome to MICROSOFT FOR STARTUP
             </h2>
@@ -139,7 +140,7 @@
                     Corporate Readiness
                 </li>
             </ul>
-            <p class="fs-sm fw-normal font-family-normal text-lightblack1 pt-4 mt-2">
+            <p class="fs-sm fw-normal font-family-normal text-lightblack1 pt-4 mt-2 mb-0">
                 The program supports startups by providing them with Microsoft cloud
                 credits, free access to selected Microsoft products and unique 3rd
                 party offers for entrepreneurs, via it’s digital platform called
@@ -154,8 +155,8 @@
             <h2 class="fs-lg fw-semibold font-family-semibold text-dark-purple text-center pt-sm-5 pt-3">
                 MicroSpot - Whats New?
             </h2>
-            <div class="row mt-5 mb-sm-95 mb-45">
-                <div class="col-xl-4 col-md-6 col-12  mt-sm-5 mt-xl-0 mt-3" data-aos="fade-left"
+            <div class="row s3-slider mt-2 mt-md-3 mt-lg-5 mb-sm-95 mb-45">
+                <div class="col-xl-4 col-md-6 col-12  mt-sm-5 mt-xl-0 mt-3" data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1500">
                     <div class="h-100 s3-card w-100 bb-1 mx-auto">
@@ -205,7 +206,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-12 mt-sm-5 mt-xl-0  mt-3" data-aos="fade-right"
+                <div class="col-xl-4 col-12 mt-sm-5 mt-xl-0  mt-3" data-aos="fade-up"
                 data-aos-easing="linear"
                 data-aos-duration="1500" >
                     <div class="bb-1 s3-card w-100  h-100 mx-auto">
@@ -234,7 +235,7 @@
         </div>
     </section>
     <!--section4-->
-    <section class="bg-lightpurple pt-5 pb-sm-63 pb-25 " id="founder" >
+    <section class="bg-lightpurple pt-5 pb-sm-63 pb-35 " id="founder" >
         <div class="container position-relative z-2">
             <h2 class="font-family-semibold fw-semibold fs-lg text-center text-dark-purple">
                 Founders Hub
@@ -254,11 +255,11 @@
                 value to our in-program startups. These exciTng partner offers are
                 tailored to the needs of startups today
             </p>
-            <div class="d-flex justify-content-center pt-5" data-aos="fade-up"
+            <div class="d-flex justify-content-center pt-2 pt-md-3 pt-lg-5" data-aos="fade-up"
             data-aos-duration="1500">
                 <img src="./assets/images/s4-img1.png" alt="s4-img1" class="s4-img1 w-100 h-100" />
             </div>
-            <div class="fs-lg fw-normal font-family-normal text-lightgrey apply bg-lightpurple1 mx-auto cursor-pointer" data-aos="fade-up"
+            <div class="fs-lg fw-normal font-family-normal text-lightgrey apply bg-lightpurple1 mx-auto cursor-pointer d-flex justify-content-center" data-aos="fade-up"
             data-aos-duration="1500">
                 Apply to Founders Hub
             </div>
@@ -267,7 +268,7 @@
     <!--section5-->
     <section id="benefits" class="position-relative z-1">
         <img src="./assets/images/elipse2.png" alt="elipse2" class="elipse2 d-sm-block d-none">
-        <div class="container-custom2 pt-55">
+        <div class="container-custom2 pt-sm-55 py-35">
             <h2 class="fw-semibold font-family-semibold fs-lg text-dark-purple text-center m-0">
                 Founders Hub Benefits
             </h2>
@@ -281,64 +282,64 @@
                 to our in-program startups. These exciting partner offers are tailored
                 to the needs of startups today.
             </p>
-            <div class="row mt-63">
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4 ">
+            <div class="row card-slider mt-63">
+                <div class="col-2 mb-4 ">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img1.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                <div class="col-2 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img2.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                <div class="col-2 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img3.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                <div class="col-2 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img4.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                <div class="col-2 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img5.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-4">
+                <div class="col-2 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto" data-aos="flip-left"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img6.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-lg-0 mb-4">
+                <div class="col-2 mb-lg-0 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto"  data-aos="flip-right"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img7.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-lg-0 mb-4">
+                <div class="col-2 mb-lg-0 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto"  data-aos="flip-right"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
                         <img src="./assets/images/s5-img8.png" alt="s5-img1" />
                     </div>
                 </div>
-                <div class="col-xxl-2 col-lg-3 col-md-4 col-sm-6 col-12 mb-lg-0 mb-4">
+                <div class="col-2 mb-lg-0 mb-4">
                     <div class="s5-card w-100 d-flex justify-content-center align-items-center mx-auto"  data-aos="flip-right"
                     data-aos-easing="ease-out-cubic"
                     data-aos-duration="1000">
@@ -391,12 +392,12 @@
     </section>
     <!--section6-->
     <section class="bg-lightpurple" id="program" >
-        <div class="container py-sm-82 py-25 position-relative">
+        <div class="container py-sm-82 py-35 position-relative">
             <h2 class="fw-semibold font-family-semibold fs-lg text-dark-purple text-center">
                 ‘Microsoft for Startups’ Programs
             </h2>
             <div class="slider">
-                <div class="slider-box bg-white mt-63">
+                <div class="slider-box bg-white mt-sm-63 mt-20">
                     <div class="row">
                         <div class="col-xl-6 col-12" data-aos="fade-down"
                         data-aos-duration="15000">
@@ -418,7 +419,7 @@
                                         as pecific challenge, verQcal or stage of the founder’s
                                         journey.
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Format:
                                         <span class="fw-normal font-family-normal">
                                             The workshop sessions are delivered by top ecosystem
@@ -426,7 +427,7 @@
                                             insider insights, practical tools and new
                                             connections.</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Who can join:
                                         <span class="fw-normal font-family-normal">
                                             The “Foundership workshops”are open to all members of
@@ -434,25 +435,25 @@
                                             and intimate events, seats are limited and curated to
                                             the most relevant startups.</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Timeline:
                                         <span class="fw-normal font-family-normal">
                                             Workshops run on a monthly basis. Registration is open
                                             and renewed for each topic
                                         </span>
                                     </li>
-                                    <li class="fw-normal font-family-normal fs-sm text-black slider-para pt-4">
+                                    <li class="fw-normal font-family-normal fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Sign up to receive next work shops invitations.
                                     </li>
                                 </ul>
-                                <div class="pt-5">
+                                <div class="pt-lg-5 pt-sm-3 pt-2">
                                     <a href="#" class="font-family-normal fw-normal fs-sm">Link to the progrem</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider-box bg-white mt-63">
+                <div class="slider-box bg-white mt-sm-63 mt-20">
                     <div class="row">
                         <div class="col-xl-6 col-12" data-aos="fade-down"
                         data-aos-duration="1500">
@@ -472,38 +473,38 @@
                                         The AI for Good Acceleration Program helps purpose-driven ventures in Israel
                                         advance their AI solutions to create positive social transformation.
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Format:
                                         <span class="fw-normal font-family-normal">
                                             For the fourth year running, Microsoft for Startups Israel and TechForGood
                                             will be selecting a cohort of startups committed a social mission to join
                                             this 9-weeks program.</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Who can join:
                                         <span class="fw-normal font-family-normal">
                                             Startups like yours with innovative technology so you can focus on what you
                                             do best: bring your vision of making the world a better place to
                                             live.</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Timeline:
                                         <span class="fw-normal font-family-normal">
                                             Registration for the 4th cohort is open up until March 21st
                                         </span>
                                     </li>
-                                    <li class="fw-normal font-family-normal fs-sm text-black slider-para pt-4">
+                                    <li class="fw-normal font-family-normal fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Link for application.
                                     </li>
                                 </ul>
-                                <div class="pt-5">
+                                <div class="pt-lg-5 pt-sm-3 pt-2">
                                     <a href="#" class="font-family-normal fw-normal fs-sm">Link to the progrem</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider-box bg-white mt-63">
+                <div class="slider-box bg-white mt-sm-63 mt-20">
                     <div class="row">
                         <div class="col-xl-6 col-12" data-aos="fade-down"
                         data-aos-duration="1500">
@@ -526,19 +527,19 @@
                                         efficiently and collaboratively, while leveraging Microsoft’s products,
                                         technology, ande xperts to boost their growth.
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para  pt-lg-4 pt-sm-3 pt-1">
                                         Format:
                                         <span class="fw-normal font-family-normal">
                                             The Startup Space initiative cohort is about two month long and includes
                                             between 3-5 startup each Qme</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para  pt-lg-4 pt-sm-3 pt-1">
                                         Who can join:
                                         <span class="fw-normal font-family-normal">
                                             The program is available for early-stage startups in pre-seed stage, who are
                                             members of our ‘Founders Hub’ community.</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para  pt-lg-4 pt-sm-3 pt-1">
                                         Timeline:
                                         <span class="fw-normal font-family-normal">
                                             Every other month we will reach out to all applicants and invite relevant
@@ -546,18 +547,18 @@
                                             the next cohort process.
                                         </span>
                                     </li>
-                                    <li class="fw-normal font-family-normal fs-sm text-black slider-para pt-4">
+                                    <li class="fw-normal font-family-normal fs-sm text-black slider-para  pt-lg-4 pt-sm-3 pt-1">
                                         Link for application.
                                     </li>
                                 </ul>
-                                <div class="pt-5">
+                                <div class="pt-lg-5 pt-sm-3 pt-2">
                                     <a href="#" class="font-family-normal fw-normal fs-sm">Link to the progrem</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="slider-box bg-white mt-63">
+                <div class="slider-box bg-white mt-sm-63 mt-20">
                     <div class="row">
                         <div class="col-xl-6 col-12" data-aos="fade-down"
                         data-aos-duration="1500">
@@ -578,7 +579,7 @@
                                         strategic customer acquisition, while providing a personalized support system
                                         within Microsoft to help startups thrive.
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Format:
                                         <span class="fw-normal font-family-normal">
                                             Pegasus is a two-year program, during which accepted startups receive white
@@ -586,7 +587,7 @@
                                             Pegasus team, including co-selling to Microsoft’s customers with our
                                             enterprise account teams and through it’s commercial marketplace</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Who can join:
                                         <span class="fw-normal font-family-normal">
                                             The program is exclusively open for venture-backed, B2B technology startups,
@@ -595,14 +596,14 @@
                                             has focus on industries like healthcare, AI, Retail,SpaceTech and
                                             Cybersecurity.</span>
                                     </li>
-                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-4">
+                                    <li class="fw-semibold font-family-semibold fs-sm text-black slider-para pt-lg-4 pt-sm-3 pt-1">
                                         Timeline:
                                         <span class="fw-normal font-family-normal">
                                             All year long.
                                         </span>
                                     </li>
                                 </ul>
-                                <div class="pt-5">
+                                <div class="pt-lg-5 pt-sm-3 pt-2">
                                     <a href="#" class="font-family-normal fw-normal fs-sm">Link to the progrem</a>
                                 </div>
                             </div>
@@ -627,7 +628,7 @@
     <!--section-7-->
     <section id="lorem" class="position-relative z-1">
         <img src="./assets/images/elipse3.png" alt="elipse3" class="elipse3 d-sm-block d-none">
-        <div class="container-custom2 pt-sm-63 py-25 pb-sm-120">
+        <div class="container-custom2 pt-sm-63 py-35 pb-sm-120">
             <h2 class="font-family-semibold fw-semibold fs-lg text-dark-purple text-center">Technology, Skilling &
                 Support</h2>
             <p class="fw-normal font-family-normal fs-sm text-dark-purple s7-para text-center mx-auto pt-sm-4 pt-3">
@@ -639,7 +640,7 @@
                 to ask technical questions about architecting your solution for optimal performance, scaling your
                 product for success, migrating to Azure, and so much more.</p>
             <div class="row pt-sm-5 pt-3">
-                <div class="col-xl-4 col-md-6 col-12  mt-sm-4 mt-3 mt-md-0" data-aos="fade-right"
+                <div class="col-xl-4 col-md-6 col-12  mt-sm-4 mt-3 mt-md-0" data-aos="fade-down"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                     <div class="s7-card w-100 h-100 mx-auto">
@@ -655,9 +656,9 @@
                                     d="M34.182 60.5549C25.1792 60.5386 18.1828 53.6193 18.3733 44.7299C18.5881 34.7178 27.0965 28.7024 34.4739 29.0266C43.3713 29.4198 50.5623 36.2703 50.2947 45.0299C49.9826 55.3096 41.5148 61.3615 34.182 60.5549ZM34.3482 55.3137C40.088 55.2893 45.1508 50.3846 45.0738 44.9245C44.9927 39.2212 40.1326 34.3692 34.4779 34.3489C28.3895 34.3246 23.5334 39.0915 23.6307 44.9934C23.7239 50.7697 28.4666 55.338 34.3482 55.3137Z"
                                     fill="#8661C5" />
                             </svg></div>
-                        <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-33">Technical
+                        <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-sm-33 pt-10">Technical
                             Enablement Training Days</p>
-                        <p class="fs-sm fw-normal font-family-normal text-black text-center pt-3">Technical Enablement
+                        <p class="fs-sm fw-normal font-family-normal text-black text-center pt-sm-3 mb-0">Technical Enablement
                             Training Days - a series of hands-on technical skilling events for all Microsoft for
                             Startups Founders Hub startups inIsrael, available as a free program benefit. These sessions
                             are ideal for technical founders, developers and team members looking to learn more about
@@ -684,10 +685,10 @@
                                     d="M115.084 126.413C118.983 122.514 122.684 118.816 126.626 114.874C125.83 114.013 124.929 112.973 123.956 111.995C116.139 104.159 108.306 96.3418 100.485 88.5092C99.7585 87.7828 98.7268 87.1297 98.4447 86.2487C98.1433 85.3059 98.2283 83.9186 98.75 83.1149C99.4455 82.0407 100.782 82.1643 101.841 82.9449C102.46 83.397 103.004 83.9534 103.549 84.4982C112.653 93.5944 121.761 102.687 130.845 111.798C133.817 114.781 133.821 115.446 130.911 118.383C126.746 122.591 122.568 126.783 118.349 130.937C115.702 133.542 114.991 133.53 112.336 130.883C102.769 121.343 93.2204 111.779 83.6682 102.223C83.305 101.86 82.9302 101.504 82.5979 101.114C81.6357 99.9896 81.4811 98.7492 82.509 97.6518C83.5369 96.5544 84.7927 96.5351 85.9519 97.5204C86.7325 98.185 87.4512 98.9308 88.1815 99.6572C96.1919 107.664 104.195 115.674 112.209 123.677C113.194 124.662 114.226 125.597 115.084 126.409V126.413Z"
                                     fill="#8661C5" />
                             </svg></div>
-                        <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-33">Founders
+                        <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-sm-33 pt-10">Founders
                             Hub <br>
                             Discovery Days</p>
-                        <p class="fs-sm fw-normal font-family-normal text-black text-center pt-3">Founders Hub Discovery
+                        <p class="fs-sm fw-normal font-family-normal text-black text-center pt-sm-3 mb-0">Founders Hub Discovery
                             Days - Founders Hub Discovery days are a unique set of events designed for technical
                             founders and CTOs in early-stage SaaS startups. Led by the Microsoft for Startups team,
                             eachDiscovery Day focuses on a key technology/domain in the Microsoft Cloud investment
@@ -696,7 +697,7 @@
                             SaaS startups from the ecosystem.</p>
                     </div>
                 </div>
-                <div class="col-xl-4 col-12 mt-sm-4 mt-3 mt-xl-0" data-aos="fade-left"
+                <div class="col-xl-4 col-12 mt-sm-4 mt-3 mt-xl-0" data-aos="fade-down"
                 data-aos-offset="300"
                 data-aos-easing="ease-in-sine">
                     <div class="s7-card w-100 h-100 mx-auto">
@@ -733,9 +734,9 @@
                                     d="M103.337 32.2379C109.621 32.2158 115.765 33.0429 121.824 34.8152C126.595 36.2109 129.017 39.1832 129.213 44.083C129.276 45.6744 129.53 47.2916 129.32 48.8461C129.217 49.6067 128.234 50.8363 127.68 50.8178C126.783 50.7919 125.491 50.1089 125.133 49.3445C124.594 48.1925 124.575 46.7267 124.583 45.3974C124.597 41.886 122.803 39.8109 119.513 39.1869C114.953 38.3266 110.356 37.6177 105.752 37.0527C103.573 36.7869 101.321 36.8386 99.1313 37.0527C96.7719 37.2817 95.3393 36.089 95.3578 34.553C95.3799 32.9616 96.5245 32.3007 99.2864 32.2453C100.638 32.2195 101.989 32.2416 103.337 32.2416V32.2379Z"
                                     fill="#8661C5" />
                             </svg></div>
-                        <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-33">Founders
+                        <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-sm-33 pt-10">Founders
                             Hub Growth Events & Azure <br> Technical Advisory</p>
-                        <p class="fs-sm fw-normal font-family-normal text-black text-center pt-3">Founders Hub Growth
+                        <p class="fs-sm fw-normal font-family-normal text-black text-center pt-sm-3 mb-0">Founders Hub Growth
                             Events & Azure Technical Advisory - an in-depth1:1 session with an expert Microsoft engineer
                             or localized specialist from across the local ecosystem, specializing in Azure technologies
                             and services. Founders can dive deeper into a wide range of topics, such as: Onboarding
@@ -758,33 +759,33 @@
                 programs and sharing their implicit knowledge, network connections, and expertise with our Founders Hub
                 community.</p>
                 <div class="s8-imgbox">
-                    <div class="row mt-63">
-                        <div class="col-lg-4 col-sm-6 col-12" data-aos="flip-left"
+                    <div class="row mt-63 s8-slick">
+                        <div class="col-4 px-3" data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1500">
                             <img src="./assets/images/s8-img1.png" alt="s8-img1" class="w-100 pb-4">
                         </div>
-                        <div class="col-lg-4 col-sm-6 col-12" data-aos="flip-up"
+                        <div class="col-4 px-3" data-aos="flip-up"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1500">
                             <img src="./assets/images/s8-img2.png" alt="s8-img1" class="w-100 pb-4">
                         </div>
-                        <div class="col-lg-4 col-sm-6 col-12" data-aos="flip-right"
+                        <div class="col-4 px-3" data-aos="flip-right"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1500">
                             <img src="./assets/images/s8-img3.png" alt="s8-img1" class="w-100 pb-4">
                         </div>
-                        <div class="col-lg-4 col-sm-6 col-12" data-aos="flip-left"
+                        <div class="col-4 px-3" data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1500">
                             <img src="./assets/images/s8-img5.png" alt="s8-img1" class="w-100 pb-4">
                         </div>
-                        <div class="col-lg-4 col-sm-6 col-12" data-aos="flip-down"
+                        <div class="col-4 px-3" data-aos="flip-down"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1500">
                             <img src="./assets/images/s8-img4.png" alt="s8-img1" class="w-100 pb-4">
                         </div>
-                        <div class="col-lg-4 col-sm-6 col-12" data-aos="flip-right"
+                        <div class="col-4 px-3" data-aos="flip-right"
                         data-aos-easing="ease-out-cubic"
                         data-aos-duration="1500">
                             <img src="./assets/images/s8-img6.png" alt="s8-img1" class="w-100 pb-4">
@@ -801,7 +802,7 @@
                                 <path d="M114.697 92.8755C112.869 101.48 109.078 104.47 99.7956 104.638C99.2505 105.817 98.6894 107.131 98.0442 108.406C96.6615 111.147 94.5333 113.131 91.5996 114.037C90.2049 114.466 88.5697 114.594 87.8163 112.822C87.0868 111.103 88.0407 110.069 89.4995 109.316C90.3211 108.891 91.2149 108.518 91.8922 107.917C94.9542 105.195 95.0584 101.552 92.1166 98.4584C87.8884 94.0137 83.564 89.6653 79.3478 85.2086C78.5743 84.387 77.8649 83.3129 77.6284 82.2428C77.4761 81.5495 78.0332 80.3311 78.6464 79.9423C79.2636 79.5496 80.3577 79.8261 81.2234 79.9503C81.5561 79.9984 81.8526 80.4193 82.1332 80.7038C86.8303 85.441 91.5275 90.1783 96.2126 94.9275C97.0543 95.7812 97.7676 96.7671 98.6614 97.5526C101.331 99.8972 104.673 99.7729 107.286 97.3162C109.651 95.0958 109.743 91.8615 107.19 89.1402C102.357 83.9862 97.3588 78.9804 92.4533 73.8905C91.6277 73.0369 90.6538 72.1672 90.253 71.1091C89.9404 70.2875 90.0727 68.6884 90.6217 68.2956C91.3992 67.7426 92.7459 67.9189 93.848 67.9149C94.1566 67.9149 94.5013 68.3397 94.7738 68.6203C99.2024 73.2413 103.615 77.8743 108.044 82.4913C109.15 83.6455 110.244 84.8318 111.47 85.8498C113.963 87.9098 116.632 87.8898 118.664 85.93C120.933 83.7417 121.45 80.303 119.562 77.9625C117.642 75.5818 115.474 73.3976 113.358 71.1813C106.725 64.2438 100.056 57.3383 93.4152 50.4048C92.6817 49.6393 91.768 48.8738 91.4554 47.94C91.1588 47.0463 91.1748 45.4311 91.7199 45.0303C92.4934 44.4572 93.9081 44.4933 94.9782 44.6817C95.6275 44.7939 96.1725 45.6556 96.7176 46.2247C103.631 53.4467 110.541 60.6728 117.438 67.9109C119.278 69.8386 121.057 71.8265 122.893 73.7543C126.219 77.2491 126.656 81.2889 124.981 85.6013C123.418 89.6252 120.58 92.2142 116.087 92.615C115.695 92.6511 115.306 92.7553 114.693 92.8675L114.697 92.8755Z" fill="#FAF9FD"/>
                                 <path d="M0.00124973 38.9544C0.385999 28.6584 5.78852 19.0036 14.5496 11.1002C21.6875 4.66765 30.0838 0.691905 39.7467 0.162875C46.1191 -0.185804 52.1548 1.57362 57.5934 5.02835C58.9921 5.91808 60.2185 7.06431 59.3007 8.97203C58.5553 10.5231 57.0644 10.5591 54.832 9.56118C51.8101 8.21455 48.7722 6.81583 45.6101 5.91007C41.2696 4.66364 36.841 5.30088 32.6568 6.75972C18.858 11.5611 9.632 20.8151 5.89673 35.1149C3.90485 42.7378 5.8286 49.6112 10.4576 55.8313C11.0949 56.6849 11.8203 57.4705 12.4695 58.3161C13.9083 60.1958 14.0246 61.9512 12.6779 62.8289C10.9305 63.9671 9.59994 62.9492 8.52184 61.6707C7.06701 59.9393 5.56809 58.2079 4.39781 56.2882C1.50418 51.5349 -0.0388283 46.3448 0.00124973 38.9544Z" fill="#FAF9FD"/>
                               </svg></div>
-                              <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-4">Partnerships with MfS</p>
+                              <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-sm-4">Partnerships with MfS</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-12 mt-md-0 mt-4">
@@ -818,7 +819,7 @@
                                 <path d="M52.047 92.2368C50.5785 92.2368 49.0879 92.3963 47.6528 92.1886C46.3587 92.0032 45.3835 91.0725 45.4428 89.6597C45.5059 88.1987 46.4996 87.5646 47.9347 87.5683C50.7491 87.5795 53.5747 87.4645 56.378 87.6499C57.1271 87.7018 58.3952 88.6474 58.4026 89.2036C58.4175 90.0861 57.7723 91.5175 57.064 91.7733C55.5103 92.337 53.7453 92.3147 52.0655 92.5298C52.0581 92.4297 52.0507 92.3333 52.0432 92.2331L52.047 92.2368Z" fill="#FAF9FD"/>
                                 <path d="M90.2368 84.5499C94.3417 79.2696 98.1054 74.4342 101.862 69.5877C103.219 67.8375 104.546 66.0613 105.922 64.3222C106.452 63.6473 106.964 62.7351 107.676 62.483C108.596 62.1604 110.046 61.9935 110.646 62.4978C111.232 62.991 111.314 64.4816 111.091 65.4087C110.88 66.2875 110.001 67.0143 109.4 67.793C103.99 74.8161 98.5838 81.843 93.1551 88.855C90.8783 91.7956 89.6361 91.8475 87.4261 89.0478C84.9083 85.8589 82.4609 82.6143 79.9876 79.3919C79.6873 79.0026 79.3832 78.6095 79.1496 78.1794C78.4302 76.8482 78.3041 75.5058 79.7169 74.5974C80.9369 73.8149 82.1198 74.2673 82.9912 75.3279C84.1667 76.7518 85.2605 78.2424 86.3989 79.696C87.5299 81.1385 88.672 82.5735 90.2368 84.5499Z" fill="#FAF9FD"/>
                               </svg></div>
-                              <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-4">Signup to get Mfs <br> updates</p>
+                              <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-sm-4">Signup to get Mfs <br> updates</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-12 mt-4 mt-lg-0">
@@ -832,7 +833,7 @@
                                 <path d="M52.3052 56.8659C52.3052 58.9392 52.2904 61.0088 52.3088 63.082C52.3236 64.6913 51.5429 65.7408 49.9631 65.7371C48.3649 65.7334 47.5842 64.555 47.5952 63.0452C47.6247 58.7845 47.7204 54.5202 47.842 50.2632C47.8825 48.8602 48.6227 47.9285 50.1141 47.958C51.5797 47.9874 52.3678 48.9817 52.4451 50.3037C52.5703 52.4838 52.4782 54.6785 52.4782 56.8696C52.4193 56.8696 52.3604 56.8696 52.3015 56.8696L52.3052 56.8659Z" fill="#FAF9FD"/>
                                 <path d="M81.7542 57.1642C81.7542 59.127 81.791 61.0898 81.7431 63.0489C81.7063 64.5661 81.0435 65.7666 79.379 65.7408C77.7697 65.715 77.0332 64.625 77.0332 63.0415C77.0332 58.8729 77.0516 54.7043 77.0258 50.5357C77.0185 49.0664 77.7182 48.1568 79.1212 48.0132C80.6089 47.8585 81.5001 48.8896 81.5995 50.1859C81.7726 52.4985 81.6474 54.8369 81.6474 57.1605C81.6805 57.1605 81.7174 57.1605 81.7505 57.1605L81.7542 57.1642Z" fill="#FAF9FD"/>
                               </svg></div>
-                              <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-4">Host an event <br> @ReactorTLV</p>
+                              <p class="fw-semibold font-family-semibold text-dark-purple fs-lg text-center pt-sm-4">Host an event <br> @ReactorTLV</p>
                         </div>
                     </div>
                 </div>
@@ -840,11 +841,11 @@
     </section>
     <!--footer-->
     <footer class="mt-5">
-        <div class="container-custom2 pt-5">
+        <div class="container-custom2 pt-sm-5">
             <div class="row justify-content-between">
                 <div class="col-lg-7 col-12">
                     <div class="row">
-                        <div class="col-md-8 col-12">
+                        <div class="col-md-8 col-12 d-md-block d-flex justify-content-center align-items-center flex-column text-md-start text-center">
                             <p class="fw-semibold font-family-semibold text-lightblack1 fs-lg">Connect & Contact Us</p>
                             <ul class="list-unstyled">
                                 <li class="pt-3"><a href="#" class="fs-1sm text-lightblack1 fw-normal font-family-normal underline text-decoration-none">Facebook page link</a></li>
@@ -852,7 +853,7 @@
                                 <li class="pt-3"><a href="#" class="fs-1sm text-lightblack1 fw-normal font-family-normal underline text-decoration-none">Join our MFS IL Ecosystem Mailing List</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4 col-12 mt-4 mt-md-0">
+                        <div class="col-md-4 col-12 mt-4 mt-md-0 d-md-block d-flex justify-content-center align-items-center flex-column text-md-start text-center">
                             <p class="fw-semibold font-family-semibold text-lightblack1 fs-lg">Support</p>
                             <ul class="list-unstyled">
                                 <li class="pt-3"><a href="#" class="fs-1sm text-lightblack1 fw-normal font-family-normal underline text-decoration-none">Blog</a></li>
@@ -862,7 +863,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-12 d-flex align-items-end mt-3 mt-lg-0">
+                <div class="col-lg-3 col-12 d-flex align-items-lg-end mt-3 mt-lg-0  justify-content-center align-items-center">
                     <div class="d-flex align-items-end justify-content-end ms-lg-auto gap-3 ">
                         <a href="https://www.facebook.com/" target="_blank" class="footersvghover"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
                             <path d="M33 18C33 9.72 26.28 3 18 3C9.72 3 3 9.72 3 18C3 25.26 8.16 31.305 15 32.7V22.5H12V18H15V14.25C15 11.355 17.355 9 20.25 9H24V13.5H21C20.175 13.5 19.5 14.175 19.5 15V18H24V22.5H19.5V32.925C27.075 32.175 33 25.785 33 18Z" fill="black"/>
