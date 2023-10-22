@@ -74,6 +74,8 @@ $('.card-slider').slick({
         slidesToShow: 4,
         slidesToScroll: 1,
         dots: false,
+        autoplay: true,
+        speedAutoplay: 2000,
       }
     },
     {
@@ -82,6 +84,8 @@ $('.card-slider').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
         dots: false,
+        autoplay: true,
+        speedAutoplay: 2000,
       }
     },
     {
@@ -90,6 +94,8 @@ $('.card-slider').slick({
         slidesToShow: 2,
         slidesToScroll: 1,
         dots: false,
+        autoplay: true,
+        speedAutoplay: 2000,
       }
     },
     {
@@ -98,6 +104,8 @@ $('.card-slider').slick({
         slidesToShow: 1.5,
         slidesToScroll: 1,
         dots: false,
+        autoplay: true,
+        speedAutoplay: 2000,
       }
     },
     {
@@ -106,6 +114,8 @@ $('.card-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
+        autoplay: true,
+        speedAutoplay: 2000,
       }
     }
   ]
