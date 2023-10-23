@@ -211,8 +211,8 @@
 
 .s5-smallbox1 {
     border-radius: 5px;
-    max-width: 363px;
-    height: 100px;
+    max-width: 268px;
+    height: 77px;
     transition: all 300ms linear;
     border: 3px solid transparent;
 }
@@ -447,6 +447,11 @@
         padding: 2px 2px;
         border-radius: 5px;
         max-width: 381px;
+    }
+
+    .s5-smallbox1 {
+        max-width: 363px;
+        height: 100px;
     }
 }
 
